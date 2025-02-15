@@ -2,7 +2,7 @@
 
 This is an Alfred Workflow built with Python and packaged using pyinstaller, designed to quickly upload images from your clipboard or files to [SM.MS](https://sm.ms) image hosting service and retrieve the image links.
 
-[中文](README.md)
+[中文](README_CN.md)
 
 ## Features
 
