@@ -1,19 +1,19 @@
-# SM.MS 图片上传工具
+# SM.MS Image Uploader
 
-这是一个基于 [SM.MS](https://sm.ms) 图床服务的 Alfred Workflow，使用pyinstaller打包，可以快速上传剪贴板中的图片或图片文件到 SM.MS，并获取图片链接。
+This is an Alfred Workflow built with Python and packaged using pyinstaller, designed to quickly upload images from your clipboard or files to [SM.MS](https://sm.ms) image hosting service and retrieve the image links.
 
-[English](README_EN.md)
+[中文](README.md)
 
-## 功能特点
+## Features
 
-- 支持从剪贴板直接上传图片
-- 支持查看历史上传记录
-- 支持复制图片文件上传
-- 支持一键删除已上传的图片
-- 上传成功后自动复制图片链接到剪贴板
-- 支持系统通知提示上传状态
+- Direct image upload from clipboard
+- View upload history
+- Support file-based image upload
+- One-click deletion of uploaded images
+- Automatic copying of image links to clipboard
+- System notifications for upload status
 
-## 支持的图片格式
+## Supported Image Formats
 
 - PNG
 - JPG/JPEG
@@ -21,34 +21,35 @@
 - BMP
 - WebP
 
-## 系统要求
+## System Requirements
 
-- macOS 系统
-- Alfred 4 或更高版本（需要 Powerpack）
-- Python 3.12 或更高版本
+- macOS
+- Alfred 4 or higher (Powerpack required)
+- Python 3.12 or higher
 
-## 安装步骤
-1. 从release下载本项目的Alfred Workflow包
-5. 在 Alfred Workflow 的配置中设置环境变量：
-   - `SM_TOKEN`: 设置为你的 SM.MS API Token
+## Installation
 
-## 使用方法
+1. Download the Alfred Workflow package from the releases page
+2. Configure the environment variable in Alfred Workflow settings:
+   - `SM_TOKEN`: Set this to your SM.MS API Token
 
-1. 上传剪贴板图片：
-   - 复制一张图片到剪贴板
-   - 在 Alfred 中输入 `smu`
+## Usage
 
-2. 查看上传历史：
-   - 在 Alfred 中输入 `sml`
-   - 按 Enter 复制选中图片的链接
-   - 按住 Command + Enter 删除选中的图片
+1. Upload an image from clipboard:
+   - Copy an image to your clipboard
+   - Type `smu` in Alfred
 
-## 注意事项
+2. View upload history:
+   - Type `sml` in Alfred
+   - Press Enter to copy the selected image link
+   - Press Command + Enter to delete the selected image
 
-- 请妥善保管你的 API Token
-- 上传图片需要确保网络连接正常
-- 建议定期清理不需要的图片以节省空间
+## Important Notes
 
-## 许可证
+- Keep your API Token secure
+- Ensure stable internet connection for uploads
+- Regularly clean up unused images to save space
 
-本项目采用 MIT 许可证
+## License
+
+MIT License
