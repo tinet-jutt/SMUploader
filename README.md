@@ -2,6 +2,8 @@
 
 这是一个基于 [SM.MS](https://sm.ms) 图床服务的 Alfred Workflow，使用pyinstaller打包，可以快速上传剪贴板中的图片或图片文件到 SM.MS，并获取图片链接。
 
+[English](README_EN.md)
+
 ## 功能特点
 
 - 支持从剪贴板直接上传图片
